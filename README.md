@@ -10,3 +10,4 @@
 <p>Now you just have to get at athis address :</p>
 <pre>http://localhost:3000</pre>
 <p>And voilaaaaaaaaaa</p>
+<h2>Here is <a href="https://site-de-presentation.herokuapp.com/">the version of this site currently in production</a></h2>
