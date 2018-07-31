@@ -1,24 +1,5 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h1>Projet par Rémi Samson, Christophe Leray et Léona Chevrel</h1>
+<h2>How to proceed ?</h2>
+<p>Start by cloning the repo</p>
+<p>Run the command line</p>
+<pre><code>bundle intall --without production</code></pre>
