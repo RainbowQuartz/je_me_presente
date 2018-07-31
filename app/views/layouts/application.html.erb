@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JeMePrSente</title>
+    <title>Site de présentations</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
@@ -11,6 +11,23 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+    <div>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="<%= home_path%>">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= about_path%>">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= contact_path%>">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
     <%= yield %>
   </body>
 </html>
